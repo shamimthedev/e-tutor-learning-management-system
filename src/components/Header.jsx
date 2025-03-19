@@ -12,7 +12,7 @@ const Header = () => {
                             <img src={Logo} alt="" />
                         </div>
                         {/* Browse  */}
-                        <div className="flex">
+                        <div className="flex items-center">
                             <span>Browse</span>
                         </div>
                         {/* Input  */}
