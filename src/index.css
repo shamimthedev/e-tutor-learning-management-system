@@ -1,8 +1,16 @@
 @import "tailwindcss";
 
-@theme{
-    --font-inter: 'Inter', sans-serif;
+@theme {
+  --font-inter: "Inter", sans-serif;
 }
-body{
-    font-family: 'DM Sans', sans-serif;
+body {
+  font-family: "DM Sans", sans-serif;
+}
+#heroSection {
+  background: rgb(240, 242, 245);
+  background: linear-gradient(
+    90deg,
+    rgba(240, 242, 245, 1) 0%,
+    rgba(240, 242, 245, 1) 100%
+  );
 }
